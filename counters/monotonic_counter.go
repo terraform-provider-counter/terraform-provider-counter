@@ -24,7 +24,7 @@ func monotonicResource() *schema.Resource {
 				Default:     1,
 				Computed:    false,
 				Optional:    true,
-				ForceNew:    true,
+				ForceNew:    false,
 				Description: "The amount used to increment / decrement the counter on each revision.",
 			},
 			"max_history": {
